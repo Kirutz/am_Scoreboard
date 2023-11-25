@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Clau">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Score Board </title>
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script> 
+        <script src="jquery.AshAlom.gaugeMeter-2.0.0.min.js"></script>
+
+    </head>
+
+    <body>
+        <!-- <div class="allscore" style="display: none;"></div> -->
+        <div class="allscore" style="display: none;">
+            <div class="mainscore">
+               
+
+                <div class="pgae1">
+                    <div class="title">
+                        <h1>TABLERO MIAMI</h1>
+                    </div>
+
+                    <div class="dataped">
+                        <div class="id">ID: 1</div>
+                        <div class="name">Nombre: Clau</div>
+                    </div>
+
+                    <div class="playersonline" id="playersonline"><i class="fas fa-user"></i> Jugadores 35/120</div>
+
+                        <div class="titlejob">
+                            <h1>EN LINEA</h1>
+                        </div>
+
+                    <div class="jobonline">
+                        <div class="job1"><i class="fas fa-wrench"></i> MECANICOS
+                            <span class="jdat1"> 0</span>
+                        </div>
+
+                        <div class="job2"><i class="fas fa-star"></i> POLICIAS
+                            <span class="jdat2"> 0</span>
+                        </div>
+
+                        <div class="job3"><i class="fas fa-book-medical" ></i> MEDICOS
+                            <span class="jdat3"> 0</span>
+                        </div>
+
+                        <div class="job4"><i class="fas fa-house" ></i> REAL STATE
+                            <span class="jdat4"> 0</span>
+                        </div>
+
+                        <div class="job5"><i class="fas fa-car" ></i> TAXI
+                            <span class="jdat5"> 0</span>
+                        </div>
+
+                        <div class="job6"><i class="fas fa-user" ></i> ABOGADO
+                            <span class="jdat6"> 0</span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="Lines"></div>
+                    <div class="LinesDOWN"></div>
+                </div>
+
+                <div class="planelrobberyalll" style="display: none;">
+                    <div class="planelrobberyall">
+                        <a class="robberybottom" id="robberybottom" href="#robbery">
+                            <div class="robberypanel">ROBBERIES</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="robbery" id="robbery" style="display: none;">
+
+                    <div class="robberyconte" id="robberyconte"></div>
+
+                    <div class="titlejob" style="top: 0.5vw; left: -11vw;">
+                        <h1>ROBBERIES</h1>
+                        <div class="Lines" style="top: 0.9vw;" ></div>
+                        <div class="LinesDOWN" style="top: 2.4vw;"></div>
+                    </div>
+                    
+                    <div class="robs">
+                        <div class="rob1"><i class="fas fa-user-ninja"></i> FLEECA
+                            <span class="rdat1"> ✘</span>
+                        </div>
+    
+                        <div class="rob2"><i class="fas fa-user-ninja"></i> PACIFIC BANK
+                            <span class="rdat2"> ✘</span>
+                        </div>
+    
+                        <div class="rob3"><i class="fas fa-user-ninja" ></i> VANGELICO
+                            <span class="rdat3"> ✘</span>
+                        </div>
+    
+                        <div class="rob4"><i class="fas fa-user-ninja" ></i> TIENDAS
+                            <span class="rdat4"> ✘</span>
+                        </div>
+
+                        <div class="rob5"><i class="fas fa-user-ninja" ></i> HUMANE LABS
+                            <span class="rdat5"> ✘</span>
+                        </div>
+
+                        <div class="rob6"><i class="fas fa-user-ninja" ></i> BOBCAT
+                            <span class="rdat6"> ✘</span>
+                        </div>
+
+                        <div class="rob7"><i class="fas fa-user-ninja" ></i> UNION
+                            <span class="rdat7"> ✘</span>
+                        </div>
+
+                        <div class="rob8"><i class="fas fa-user-ninja" ></i> YACHT
+                            <span class="rdat8"> ✘</span>
+                        </div>
+
+                        <div class="rob9"><i class="fas fa-user-ninja" ></i> TREN
+                            <span class="rdat9"> ✘</span>
+                        </div>
+                    </div>
+
+                    <div class="rulesrob">
+                        <div class="titlejob" style="top: 14.4vw; left: -11vw; font-size: .5vw;">
+                            <h1>REGLAS</h1>  
+                        </div>
+                        <div class="rulesdetail">
+                            <h1>Recomendamos Leer las Normativas del Servidor antes de Robar.</h1> 
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
