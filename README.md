@@ -20,7 +20,7 @@ BEFORE :
  
 NOW :
 
-https://i.imgur.com/as1tc6c.png
+![Captura de pantalla 2023-11-25 190518](https://github.com/Kirutz/am_Scoreboard/assets/111531728/543a987f-170f-4dfe-abd7-6fc01769e785)
 
 
 VIDEO NEW VERSION PREVIEW:
